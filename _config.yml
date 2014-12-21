@@ -1,0 +1,53 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+# Site settings
+title: "Shadow"
+description: > # this means to ignore newlines until "email:"
+   Things about web develop
+
+email: finfin@gmail.com
+#blog logo
+logo: "/assets/images/logo.png"
+# blog cover
+cover: "/assets/images/cover.jpg"
+
+name: 'Fin Chen'
+author: 'Fin Chen'
+author_image: "/assets/images/author.png"
+
+paginate:	5
+
+url: "http://finfin.github.io" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+# social:
+#   - icon:	twitter
+#     url:	https://twitter.com/nifetuc
+#     desc: Follow me on twitter
+#     share_url: http://twitter.com/share
+#     share_title: ?text=
+#     share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/thingsaboutwebdev
+#    desc: Share something on my facebook fanpage
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+#   - icon:	github
+#     url:	https://github.com/finfin
+#     desc:	Fork me on github
+#     share_url:
+#     share_title:
+#     share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
