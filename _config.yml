@@ -16,7 +16,7 @@ cover: "/assets/images/cover.jpg"
 name: 'Fin Chen'
 author: 'Fin Chen'
 author_image: "/assets/images/author.png"
-
+excerpt_separator: ""
 paginate:	5
 
 url: "http://finfin.github.io" # the base hostname & protocol for your site
@@ -45,6 +45,7 @@ social:
     share_title:
     share_link:
 
+disgus: fin-ghpage
 #  - icon:	google-plus
 #    url:	https://google.com/???
 #    desc:	Add me on google+
