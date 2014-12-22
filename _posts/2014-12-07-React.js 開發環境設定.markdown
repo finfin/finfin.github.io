@@ -2,7 +2,7 @@
 layout: post
 title:  "React.js 開發環境設定"
 date:   2014-12-07 14:34:25
-tags: "javascript"
+tags: javascript
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 ---
 
