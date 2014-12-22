@@ -7,7 +7,7 @@ tags:
   - git
   - javascript
   - jshint
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
+image: /assets/article_images/githook-quality-control.jpg
 ---
 
 使用 Git 的時候常常會遇到一個狀況：commit 之後才發現 jshint 檢查不通過，像是少了個分號之類。當這是一個多人合作專案時，merge 之後一整排的 jshint 錯誤那更是歡樂無比。

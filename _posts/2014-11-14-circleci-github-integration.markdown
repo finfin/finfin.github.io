@@ -6,7 +6,7 @@ tags:
   - GitHub
   - CircleCI
   - "continuos integration"
-image: /assets/article_images/2014-11-14/cover.png
+image: /assets/article_images/circleci-github-integration.jpg
 ---
 
 [CircleCI](https://circleci.com/) 是個很強大的 SAAS CI。其中最重要的莫過於 GitHub 的支援，本文就簡單介紹如何整合這兩個工具。

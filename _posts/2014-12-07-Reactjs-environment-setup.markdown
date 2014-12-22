@@ -3,7 +3,7 @@ layout: post
 title:  "React.js 開發環境設定"
 date:   2014-12-07 14:34:25
 tags: javascript
-image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
+image: /assets/article_images/reactjs-environment.jpg
 ---
 
 [React](http://facebook.github.io/react/) 可說是最近最熱門的一個 Library，用過之後都會被其簡單的程式流程所吸引。如果對 React 還不熟的可參考附錄，或直接至官網看教學。在這就分享一些環境設定，讓開發更有效率。 
