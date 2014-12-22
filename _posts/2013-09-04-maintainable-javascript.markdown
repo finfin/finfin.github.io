@@ -6,7 +6,7 @@ tags:
   - javascript
   - "code style"
   - 
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
+image: /assets/article_images/maintainable-javascript.jpg
 ---
 
 以下是Maintainable Javascript 作者 Nicholas Zakas 在 Fluent 2012 演說
