@@ -19,11 +19,11 @@ image: /assets/article_images/circleci-github-integration.jpg
 # 做法
 
 前往 [CircleCI](https://circleci.com/) 網站，點擊 `Sign Up Free` ，會要求輸入 GitHub 帳號密碼。
-[CIRCLECI SIGN UP](http://4.bp.blogspot.com/-BBF1vyokxtY/VF7TZRUMNOI/AAAAAAAATJs/FheUp37PuhA/s800/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%2B2014-11-09%2B%E4%B8%8A%E5%8D%8810.36.59.png)
+![CIRCLECI SIGN UP](http://4.bp.blogspot.com/-BBF1vyokxtY/VF7TZRUMNOI/AAAAAAAATJs/FheUp37PuhA/s800/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%2B2014-11-09%2B%E4%B8%8A%E5%8D%8810.36.59.png)
 
 帳號創建完成並授權 CircleCI 存取 GitHub 後，會回到 CircleCI 主控制頁面，點左方 `Add Projects` 並選擇 `Project，CircleCI` 即會取得 code 並開始第一次的建置。
 
-[ADD PROJECTS](http://3.bp.blogspot.com/-pj2mcZGqtJ0/VF80oqJH6LI/AAAAAAAATJ8/kbyG1TwNFW4/s800/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%2B2014-11-09%2B%E4%B8%8A%E5%8D%8810.50.22.png)
+![ADD PROJECTS](http://3.bp.blogspot.com/-pj2mcZGqtJ0/VF80oqJH6LI/AAAAAAAATJ8/kbyG1TwNFW4/s800/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%2B2014-11-09%2B%E4%B8%8A%E5%8D%8810.50.22.png)
 
 CircleCI 會自動判斷 project 語言並尋找建置設定檔，對於javascript 開發者來說就是 package.json。接著會依序安裝 package.json 所列的 package，並執行 npm test，如果一切順利通過則此次建置就算成功。一切的動作都可以即時在頁面上看到，上圖就是這個 project 可以看到因為沒有 test 可以跑所以失敗。
 
@@ -65,10 +65,10 @@ deployment:
 
 
 
-[ENV VAR](http://1.bp.blogspot.com/-9473wz74kGc/VF81EVeJagI/AAAAAAAATKE/lC0HxMQJB9g/s800/circleci_project_settings.png)
+![ENV VAR](http://1.bp.blogspot.com/-9473wz74kGc/VF81EVeJagI/AAAAAAAATKE/lC0HxMQJB9g/s800/circleci_project_settings.png)
 
 
-[ENV VAR SETTING](http://1.bp.blogspot.com/-ss4fw1ZR8UA/VF81ERCBEUI/AAAAAAAATKI/BNsXSw02oY0/s800/circleci_env_settings.png)
+![ENV VAR SETTING](http://1.bp.blogspot.com/-ss4fw1ZR8UA/VF81ERCBEUI/AAAAAAAATKI/BNsXSw02oY0/s800/circleci_env_settings.png)
 
 主機的環境變數即會有存入的 key-value，任何建置工具只要能取得環境變數的都可以拿到，比如說在 grunt 裏面：
 
@@ -87,10 +87,10 @@ aws = {
 
 
 
-[ENABLE SSH](http://2.bp.blogspot.com/-PykwCBRH7iU/VF81t9HPldI/AAAAAAAATKU/PMVXCpuGdLc/s800/circleci_ssh.png)
+![ENABLE SSH](http://2.bp.blogspot.com/-PykwCBRH7iU/VF81t9HPldI/AAAAAAAATKU/PMVXCpuGdLc/s800/circleci_ssh.png)
 
 # 無用知識
 
 CircleCI也支援 Status Badge（就是我們常在 GitHub 專案的 README 第一行看到小圖示），在 project setting 裡面，可以把 `badge=style` 改成 `badge=shield` 會有另外一種常見的 badge style 出現喔～
 
-[BADGE SETTING](http://3.bp.blogspot.com/-gLXs_ysKhJA/VF810mZKmpI/AAAAAAAATKc/kghlOKkwXc8/s800/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%2B2014-11-09%2B%E4%B8%8B%E5%8D%885.31.12.png)
+![BADGE SETTING](http://3.bp.blogspot.com/-gLXs_ysKhJA/VF810mZKmpI/AAAAAAAATKc/kghlOKkwXc8/s800/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%2B2014-11-09%2B%E4%B8%8B%E5%8D%885.31.12.png)
