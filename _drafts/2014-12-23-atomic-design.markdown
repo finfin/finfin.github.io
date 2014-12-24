@@ -1,0 +1,1 @@
+> We’re not designing pages, we’re designing systems of components.—Stephen Hay

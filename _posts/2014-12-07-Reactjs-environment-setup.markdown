@@ -69,7 +69,7 @@ Grunt Task 需要兩個部分： **A.把JSX 檔案編譯成 JS** , **B.JSX 檔�
 
 - **把 JSX 檔案編譯成 JS:** 在 Gruntfile.js 裡增加這樣一個task
 
-```lang-javascript
+```javascript
 grunt.initConfig({
     shell: {
         jsx: {
