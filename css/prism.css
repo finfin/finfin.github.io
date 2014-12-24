@@ -12,7 +12,7 @@ pre[class*="language-"] {
 	font-family: Consolas, Monaco, 'Andale Mono', monospace;
 	direction: ltr;
 	text-align: left;
-	white-space: pre;
+	white-space: pre-wrap;    
 	word-spacing: normal;
 	word-break: normal;
 	line-height: 1.5;
@@ -25,6 +25,7 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
+
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -136,7 +137,6 @@ pre[class*='language-'] {
 }
 pre[class*='language-'] > code[data-language] {
 	overflow: auto;
-	max-height: 28em;
 	display: block;
 }
 pre[class*='language-'] > code[data-language]::before {
