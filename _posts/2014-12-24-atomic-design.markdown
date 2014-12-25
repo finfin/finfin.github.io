@@ -15,7 +15,7 @@ excerpt: "當網頁的規模逐漸變得複雜，建立一個又一個的頁面�
 
 > [***——Stephen Hay***](http://bradfrost.com/blog/mobile/bdconf-stephen-hay-presents-responsive-design-workflow/)
 
-當網頁的規模逐漸變得複雜，建立一個又一個的頁面會耗費更多時間，此時需要開始以系統化的角度來重新思考頁面設計這回事。換句話說，需要建立一個設計系統。
+當網頁的規模逐漸變得複雜，建立一個又一個的頁面耗費越來越多時間，此時需要開始以系統化的角度來重新思考頁面設計這回事。換句話說，需要建立一個設計系統。
 
 現階段關於[設計系統](http://24ways.org/2012/design-systems/)的討論大多關注在顏色、字型、grid、素材之上。這些是最基本也最重要的元素，但忽略了介面是如何組成、由什麼組成這些問題，而這些問題應該用一種更系統化的方式去建立、討論並解決。
 
@@ -96,7 +96,7 @@ Atomic design 把這樣子的方法做了一個清楚的規範，讓我們在建
 
 # PATTERN LAB
 
-如果想加入這套設計系統，*Brad Frost* 建立了一套工具—— [Pattern Lab](http://demo.patternlab.io/)，也可以 [前往 GitHub](https://github.com/bradfrost/patternlab) 抓取 Pattern Lab 來試試 Atomic design。
+[Pattern Lab](http://demo.patternlab.io/) 是 *Brad Frost* 依照這個設計系統所建立的一套工具，可以 [前往 GitHub](https://github.com/bradfrost/patternlab) 抓取 Pattern Lab 來試試 Atomic design。
 
 
 
