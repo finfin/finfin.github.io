@@ -8,6 +8,7 @@ tags:
   - atomic design
   - methology
 image: /assets/article_images/atomic-design.jpg
+excerpt: "當網頁的規模逐漸變得複雜，建立一個又一個的頁面耗費越來越多時間，此時需要開始以系統化的角度來重新思考頁面設計這回事。Atomic design 是個設計方法，目的就是用來解決這樣子的問題。"
 ---
 
 > We’re not designing pages, we’re designing systems of components.
