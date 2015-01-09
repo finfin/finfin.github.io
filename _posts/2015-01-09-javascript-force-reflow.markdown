@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "用 Javascript 操作 DOM：批次修改屬性須知"
+title:  "用 Javascript 操作 DOM：連續修改樣式屬性須知"
 date:   2015-01-09 23:00:00
 tags: 
   - javascript
