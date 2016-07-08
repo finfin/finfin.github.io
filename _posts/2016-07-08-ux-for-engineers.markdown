@@ -2,7 +2,6 @@
 layout: post
 title:  "開發者的 UX: Developer Experience (DX)"
 date:   2016-07-08 20:32:33
-timezone: "Asia/Taipei"
 tags: 
   - ux
   - "user experience"

@@ -20,6 +20,7 @@ author: 'Fin Chen'
 author_image: "/assets/images/author.png"
 paginate:	5
 
+timezone: "Asia/Taipei"
 url: "http://finfin.github.io" # the base hostname & protocol for your site
 baseurl: ""
 
