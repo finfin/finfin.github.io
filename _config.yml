@@ -1,8 +1,5 @@
 # Build settings
-markdown: redcarpet
-highlighter: prism
-redcarpet:
-  extensions: ["tables"]
+highlighter: rouge
 
 # Site settings
 title: "Fin's Nest"
