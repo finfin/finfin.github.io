@@ -5,7 +5,7 @@ date:   2017-09-17 10:32:33
 tags:
   - "sublime text"
   - "開發工具"
-image: /assets/article_images/programmers.jpg
+image: /assets/article_images/sublimetext3.png
 excerpt: "整理一下常在用的 sublime text 3 套件"
 ---
 
