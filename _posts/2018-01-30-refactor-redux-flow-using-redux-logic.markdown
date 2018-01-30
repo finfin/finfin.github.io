@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "使用 redux-logic 簡化複雜的流程與測試"
+title:  "使用 redux-logic 簡化複雜的流程與測試"
 date:   2018-01-30 21:04:59
 tags:
   - "react"
   - "redux"
 image: /assets/article_images/redux-logic.jpg
 excerpt: "redux-logic 使用心得"
-
 ---
 
 # 前提知識
