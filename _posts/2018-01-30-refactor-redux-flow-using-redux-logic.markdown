@@ -265,6 +265,8 @@ export function startCreating(videoFile) {
 redux-logic 提供了 `redux-logic-test` 這個 npm lib 來幫助測試，初步我們可以寫這樣一個 mocha test 來測 sunny path (一樣是 psuedo code)
 
 ```javascript
+import { createMockStore } from 'redux-logic-test';
+
 describe('[CREATE VIDEO]', () => {
   let store;
   beforeEach(() => {
@@ -273,6 +275,8 @@ describe('[CREATE VIDEO]', () => {
     });
   });
 
+  // 驗證 START_CREATING 這個 action 在 sunny path 下面應該出現的 action 順序
+  // 這裡忽略 action 的 payload 不管
   it('sunny path', () => {
     store.dispatch({ type: START_CREATING, payload: FAKE_VIDEO_FILE});
     return store.whenComplete(() => {
@@ -290,7 +294,7 @@ describe('[CREATE VIDEO]', () => {
 });
 ```
 
-對單元測試比較熟的人會發現這樣的單元測試無法執行，因為此時 `createBlob` `getToken` 跟 `postVideoRecord` 都會真正地發出 request。而這邊 redux-logic 提供了一個功能可以瞬間簡化此步驟： dependency injection。
+對單元測試比較熟的人會發現這樣的單元測試無法執行，因為此時 `createBlob` `getToken` 跟 `postVideoRecord` 都會真正地發出 request。幸而 redux-logic 提供了一個功能可以瞬間簡化此步驟： dependency injection。
 
 讓我們回到 middleware 設定的地方並且加入一些東西
 
@@ -335,7 +339,7 @@ export const newVideoRecord = createLogic({
     allow(action);
   },
 
-  // getToken, createBlob, postVideoRecord 可以直接從 process 的 input 裡面取出來
+  // getToken, createBlob, postVideoRecord 可以直接從 process 的 input argument 裡面取出來
   process({getState, action, getToken, createBlob, postVideoRecord}, dispatch, done) {
     // dispatch({type: START_CREATING});
     dispatch({type: 'GET_UPLOAD_TOKEN_REQUEST'});
@@ -368,7 +372,7 @@ export const newVideoRecord = createLogic({
       })
 ```
 
-然後單元測試就可以變成這樣
+因為所需的 dependency 透過 injection 之後變成可以在 function input 取得，單元測試就可以變成這樣
 
 ```javascript
 const injectedDeps = {
@@ -392,7 +396,7 @@ describe('[CREATE VIDEO]', () => {
 });
 ```
 
-於是乎我們就可以透過不同的 injectedDeps 來測試不同的  `logic.js` 裡面的流程。單元測試 ok!
+由於這時候我們可以完全控制 dependency 的回應，接下就可以透過 injectedDeps 的改動來撰寫不同的測試案例，測試不同的流程。單元測試 ok!
 
 # 結論
 
