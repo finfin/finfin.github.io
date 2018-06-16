@@ -46,8 +46,9 @@ social:
 
 disgus: fin-ghpage
 
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-paginate
 #  - icon:	google-plus
 #    url:	https://google.com/???
 #    desc:	Add me on google+
