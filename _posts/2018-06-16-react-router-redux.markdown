@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React 下與 URL 參數讀取與變更"
-date:   2018-06-04 22:51:59
+date:   2018-06-16 22:51:59
 tags:
   - "react-router-redux"
   - "redux-logic"
@@ -27,7 +27,7 @@ excerpt: "React 下與 URL 參數讀取與變更"
 
 這範例中，我們有一個多功能的報表介面，提供查詢時間區間資料、過濾器、顯示時間區間內數據曲線圖、表格，如下圖。
 
-![範例報表介面](/assets/article_images/react-router-redux/mockup.png)
+![範例報表介面](/assets/article_images/react-router-redux/mockup.png)
 
 ## 設計
 
@@ -58,7 +58,7 @@ handleUserInput(value) {
 
 ### 流程圖
 
-![解法一流程圖](/assets/article_images/react-router-redux/solution-one-flow.png)
+![解法一流程圖](/assets/article_images/react-router-redux/solution-one-flow.png)
 
 
 ### 分析
@@ -75,7 +75,7 @@ handleUserInput(value) {
 
 基本流程圖會像這樣
 
-![解法二流程圖](/assets/article_images/react-router-redux/solution-two-flow.png)
+![解法二流程圖](/assets/article_images/react-router-redux/solution-two-flow.png)
 
 ```js
 // logic.js

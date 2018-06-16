@@ -1,5 +1,5 @@
 # Build settings
-highlighter: rouge
+highlighter: none
 
 # Site settings
 title: "Fin's Nest"
@@ -55,3 +55,8 @@ plugins:
 #    share_url:
 #    share_title:
 #    share_link:
+
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
