@@ -1,5 +1,5 @@
 # Build settings
-highlighter: none
+highlighter: rouge
 
 # Site settings
 title: "Fin's Nest"
