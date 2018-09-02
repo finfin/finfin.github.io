@@ -14,7 +14,7 @@ cover: "/assets/images/cover.jpg"
 
 name: 'Fin Chen'
 author: 'Fin Chen'
-author_image: "/assets/images/author.png"
+author_image: "/assets/images/author.jpg"
 paginate:	5
 
 timezone: "Asia/Taipei"
